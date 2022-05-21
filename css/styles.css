@@ -1,0 +1,120 @@
+/* цвет фона белого header + описание работ #FFFFFF */
+/* цвет фона серый наша команда #F5F4FA */
+/* цвет фона героя и footer #2F303A */
+/* background button #2196F3 */
+
+/* color-text main #757575 */
+/* color-title black #212121 */
+/* color-title white #FFFFFF */
+/* color blue #2196F3 */
+/* color-nav accent #2196F3 */
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --accent-white-color: #ffffff;
+}
+.body {
+  font-family: roboto, sans-serif;
+  background-color: #ffffff;
+  color: #757575;
+}
+.list {
+  list-style: none;
+}
+
+/* Webstudio */
+.logo {
+  color: #000000;
+}
+.site-logo {
+  color: var(--accent-color);
+}
+.logo:hover,
+.logo:focus {
+  color: #2196f3;
+}
+
+/* site-nav */
+.site-nav .link {
+  color: var(--title-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+.site-nav .link.current {
+  color: #2196f3;
+}
+.header-link {
+  color: var(--title-text-color);
+}
+.header-link:hover,
+.header-link:focus {
+  color: var(--accent-color);
+}
+.header-link.current {
+  color: var(--accent-color);
+}
+.header-mail,
+.header-tel {
+  color: var(--primary-text-color);
+}
+.header-mail:hover,
+.header-mail:focus,
+.header-tel:hover,
+.header-tel:focus {
+  color: var(--accent-color);
+}
+/* hero */
+.hero {
+  background-color: #2f303a;
+}
+.hero-title {
+  color: #ffffff;
+}
+.button {
+  background-color: var(--accent-color);
+  color: var(--accent-white-color);
+}
+
+/* section */
+.section {
+  color: var(--primary-text-color);
+}
+.section .section-title {
+  color: var(--title-text-color);
+}
+/* worker */
+.worker {
+  background-color: #f5f4fa;
+  color: var(--title-text-color);
+}
+.worker-title {
+  color: var(--title-text-color);
+}
+
+/* footer */
+.footer {
+  background-color: #2f303a;
+}
+.footer-logo {
+  font-family: roboto, sans-serif;
+  color: #ffffff;
+}
+.footer-logo:hover,
+.footer-logo:focus {
+  color: #2196f3;
+}
+.footer-link {
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--accent-color);
+}
+.adress {
+  font-family: roboto, sans-serif;
+  color: #ffffff;
+}
