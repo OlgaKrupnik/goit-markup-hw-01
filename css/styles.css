@@ -220,8 +220,7 @@ button {
 .port-title {
   color: var(--title-text-color);
   text-decoration: none;
-  font-family: inherit;
-  font-style: inherit;
+
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
